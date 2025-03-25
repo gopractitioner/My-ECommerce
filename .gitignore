@@ -1,0 +1,80 @@
+# 依赖包
+/node_modules
+/frontend/node_modules
+/.pnp
+.pnp.js
+
+# 测试覆盖率
+/coverage
+
+# 生产构建
+/build
+/frontend/build
+
+# 杂项
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# .NET 相关
+*.swp
+*.user
+*.userosscache
+*.sln.docstates
+**/bin/
+**/obj/
+.vs/
+.vscode/
+*.dbmdl
+*.jfm
+*.suo
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Docker 相关
+.dockerignore
+.docker/data/
+
+# 数据库
+*.db
+*.db-shm
+*.db-wal 
+
+# 配置文件
+# 敏感配置文件
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Production.json
+
+# 日志文件
+*.log
+*.log.*
+*.log.*.*
+*.log.*.*.*
