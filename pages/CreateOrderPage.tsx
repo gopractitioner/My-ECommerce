@@ -1,0 +1,1 @@
+import { CartItem } from '../store/slices/cartSlice'; 
